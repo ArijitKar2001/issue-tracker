@@ -2,7 +2,7 @@ const express = require("express");
 // set up database
 const db = require("./config/mongoose");
 const serverless = require("serverless-http");
-const port = 8000;
+const port = 3000;
 const app = express();
 
 const expressLayouts = require("express-ejs-layouts");
